@@ -11,7 +11,7 @@
 拉氏变换和Z变换的意义，是将频率域的某些限制条件A，转化为**复频率**域中与之等价的相应条件A，然后在复频域内直接观察信号或系统的拉氏变换或Z变换，看X\(s\)或X\(z\)是否满足条件A'，得到相应的结论。用这个结论代替傅里叶变换的结论
 
 * 连续时间傅里叶变换（CTFT）-&gt; Laplace
-  * $\int_{-\infty}^{\infty} x\(t\) e^{-j \omega t} d t,$ 傅里叶变换要求时域信号绝对可积, 即 $\int_{-\infty}^{\infty}\|x\(t\)\| d t&lt;\infty$ 可以发现$$\int_{-\infty}^{\infty}\left|x(t) e^{-\sigma t}\right| d t<\infty$$ 
+  *  __$$\int{-\infty}^{\infty} x(t) e^{-j \omega t} d t$$ _傅里叶变换要求时域信号绝对可积, 即_  $$\int{-\infty}^{\infty}|x(t)| d t<\infty$$ 可以发现$$\int_{-\infty}^{\infty}\left|x(t) e^{-\sigma t}\right| d t<\infty$$ 
 
     得到新函数的傅立叶变换: $\int{-\infty}^{\infty} x\(t\) e^{-\sigma t} e^{-j \omega t} d t_$ ，化简得 $\int_{-\infty}^{\infty} x\(t\) e^{-\(\sigma+j \omega\) t}$ 。
 
